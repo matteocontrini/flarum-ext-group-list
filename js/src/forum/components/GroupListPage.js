@@ -1,8 +1,9 @@
-import Page from 'flarum/components/Page';
-import IndexPage from 'flarum/components/IndexPage';
-import LoadingIndicator from 'flarum/components/LoadingIndicator';
-import GroupBadge from 'flarum/components/GroupBadge';
-import listItems from 'flarum/helpers/listItems';
+import app from 'flarum/app';
+import Page from 'flarum/common/components/Page';
+import IndexPage from 'flarum/forum/components/IndexPage';
+import LoadingIndicator from 'flarum/common/components/LoadingIndicator';
+import GroupBadge from 'flarum/common/components/GroupBadge';
+import listItems from 'flarum/common/helpers/listItems';
 import UserList from './UserList';
 
 /* global m */
